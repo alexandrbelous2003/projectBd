@@ -1,0 +1,350 @@
+div{
+    display: block;
+
+}
+
+body{
+    color: #262626;
+    height: 100%!important;
+    max-height: 100%;
+    font-size: .875rem;
+}
+
+html {
+    height: 100%!important;
+    font-family: Roboto,sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 400;
+}
+
+.section__header{
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 20px;
+}
+
+.section__title{
+    padding: 25px;
+    max-width: 85%;
+    margin: 0;
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    font-weight: 700;
+}
+
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.section__title h1{
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    font-weight: 700;
+}
+
+.chiefs-grid{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -25px;
+    margin: 4.275% 0;
+}
+
+.chiefs-grid__col{
+    margin-left: 25px;
+    margin-bottom: 25px;
+}
+
+.chiefs-grid__col-heading{
+    margin-bottom: 15px;   
+}
+
+.chief{
+    display: flex;
+}
+
+.chief__left{
+    max-width: 250px;
+    width: 100%;
+    -webkit-box-flex: 1;
+    flex: 1 0 0%;
+}
+
+
+.chief__image-wrap img {
+    width: 100%;
+    display: block;
+    -webkit-box-sizing: border-box;
+
+}
+
+.chief__right{
+    padding: 0 25px;
+    display: flex;
+    flex-direction: column;
+}
+.chiefs-grid--commit .chief__name {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+    line-height: 1.15;
+    font-weight: 500;
+}
+
+.chief__name a {
+    font-size: 1.25rem;
+}
+
+.link, a {
+    color: #485480;
+    font-weight: 500;
+    text-decoration: none;
+    border-bottom: 1px solid;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+}
+
+.chiefs-grid--commit .chief__department {
+    margin-bottom: 10px;
+}
+
+.chief__position:empty {
+    display: none;
+}
+
+.chief__position {
+    font-size: 1rem;
+    margin-bottom: 30px;
+    color: #3f3f3f;
+}
+
+.chiefs-grid--commit .chief__position {
+    font-size: .875rem;
+}
+.chief__dls {
+    margin-top: auto;
+}
+
+.chief__dls dl:first-child {
+    margin-top: 0;
+}
+.chief__dls dl {
+    margin: 11px 0;
+}
+.chief__dls dt {
+    font-size: .75rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #878787;
+    margin-bottom: 1px;
+}
+
+.chief__dls dd, .chief__dls dt {
+    margin: 0;
+}
+
+.chief__dls dd a[href^=tel] {
+    font-size: 1.143em;
+    border: 0;
+    color: #262626;
+    font-weight: 500;
+}
+
+
+
+.section__body{
+
+    font-family: Roboto,sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+    color: #262626;
+    font-size: .875rem;
+    -webkit-box-direction: normal;
+    box-sizing: border-box;
+}
+
+.highlighted{
+    
+    box-sizing: border-box;
+    position: relative;
+    margin: 0 20px 0 20px;
+    padding:0 30px 0 20px!important;
+
+
+
+    background: #e5e5e9; 
+}
+
+.people-slider{
+    -webkit-text-size-adjust: 100%;
+    font-family: Roboto,sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+    color: #262626;
+    font-size: .875rem;
+    -webkit-box-direction: normal;
+    box-sizing: border-box;
+    user-select: none;
+    position: relative;
+}
+
+.swiper-container swiper-container-horizontal{
+    
+    -webkit-text-size-adjust: 100%;
+    font-family: Roboto,sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+    color: #262626;
+    font-size: .875rem;
+    -webkit-box-direction: normal;
+    user-select: none;
+    box-sizing: border-box;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    list-style: none;
+    padding: 0;
+    z-index: 1;
+}
+
+.swiper-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+ 
+
+    font: 400 14px/20px Roboto, "Helvetica Neue", sans-serif;
+    letter-spacing: normal;
+    -webkit-text-size-adjust: 100%;
+    font-family: Roboto, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+    color: #262626;
+    font-size: 0.875rem;
+    user-select: none;
+    list-style: none;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: flex;
+    transition-property: transform;
+    box-sizing: content-box;
+    transform: translate3d(0px, 0px, 0px);
+}
+
+
+
+
+.people-slider__slide{
+    -webkit-text-size-adjust: 100%;
+    font-family: Roboto,sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+    color: #262626;
+    font-size: .875rem;
+    user-select: none;
+    list-style: none;
+    box-sizing: border-box;
+    flex-shrink: 0;
+    height: 100%;
+    position: relative;
+    transition-property: transform,-webkit-transform;
+    margin: 0;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-flow: column nowrap;
+    width: 206px;
+    margin-right: 20px;
+}
+
+.people-slider__image{
+    -webkit-text-size-adjust: 100%;
+    font-family: Roboto,sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+    color: #262626;
+    font-size: .875rem;
+    user-select: none;
+    list-style: none;
+    -webkit-box-direction: normal;
+    box-sizing: border-box;
+}
+
+.people-slider__caption{
+    -webkit-text-size-adjust: 100%;
+    font-family: Roboto,sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+    color: #262626;
+    user-select: none;
+    list-style: none;
+    -webkit-box-direction: normal;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 0 15%;
+    margin-top: 10px;
+    font-size: .875rem;
+}
+
+.people-slider__slide swiper-slide swiper-slide-next{
+    -webkit-text-size-adjust: 100%;
+    font-family: Roboto,sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+    color: #262626;
+    user-select: none;
+    list-style: none;
+    box-sizing: border-box;
+    flex-shrink: 0;
+    height: 100%;
+    position: relative;
+    transition-property: transform,-webkit-transform;
+    margin: 0;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-flow: column nowrap;
+
+    margin-right: 20px;
+}
+
+.people-slider__image{
+    -webkit-text-size-adjust: 100%;
+    font-family: Roboto,sans-serif;
+
+    color: #262626;
+    font-size: .875rem;
+    user-select: none;
+    list-style: none;
+    -webkit-box-direction: normal;
+    box-sizing: border-box;
+}
+
+.swiper-notification{
+    -webkit-text-size-adjust: 100%;
+    font-family: Roboto,sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+    color: #262626;
+    font-size: .875rem;
+    -webkit-box-direction: normal;
+    user-select: none;
+    list-style: none;
+    box-sizing: border-box;
+    position: absolute;
+    left: 0;
+    top: 0;
+    pointer-events: none;
+    opacity: 0;
+    z-index: -1000;
+}
+
+
+
