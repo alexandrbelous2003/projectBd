@@ -16,6 +16,10 @@ import { FormsModule } from '@angular/forms';
 import { MatCardModule } from '@angular/material/card';
 import { MatGridListModule } from '@angular/material/grid-list';
 
+import { HttpClientModule }   from '@angular/common/http';
+import { NewsService } from './bureau/services/http.service';
+
+
 
 @NgModule({
   declarations: [
@@ -34,9 +38,10 @@ import { MatGridListModule } from '@angular/material/grid-list';
     MatTabsModule,
     FormsModule,
     MatCardModule,
-    MatGridListModule
+    MatGridListModule,
+    HttpClientModule
   ],
-  providers: [],
+  providers: [ NewsService ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
